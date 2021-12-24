@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="130" started-at="2021-12-18T09:47:38 IST" finished-at="2021-12-18T09:47:39 IST">
+  <suite name="Default suite" duration-ms="132" started-at="2021-12-20T13:07:55 IST" finished-at="2021-12-20T13:07:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="130" started-at="2021-12-18T09:47:38 IST" finished-at="2021-12-18T09:47:39 IST">
-      <class name="leetcodeapps.Testde">
-        <test-method status="PASS" signature="test()[pri:0, instance:leetcodeapps.Testde@5d76b067]" name="test" duration-ms="20" started-at="2021-12-18T09:47:39 IST" finished-at="2021-12-18T09:47:39 IST">
+    <test name="Default test" duration-ms="132" started-at="2021-12-20T13:07:55 IST" finished-at="2021-12-20T13:07:55 IST">
+      <class name="patterns.LeftTriangle">
+        <test-method status="PASS" signature="LeftTriangle()[pri:0, instance:patterns.LeftTriangle@5d76b067]" name="LeftTriangle" duration-ms="24" started-at="2021-12-20T13:07:55 IST" finished-at="2021-12-20T13:07:55 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- leetcodeapps.Testde -->
+        </test-method> <!-- LeftTriangle -->
+      </class> <!-- patterns.LeftTriangle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

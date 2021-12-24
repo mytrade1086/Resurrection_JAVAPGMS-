@@ -20,5 +20,7 @@ public class ReverseArray {
         }
         
         System.out.println(Arrays.toString(s));
+       // [o, l, l, e, h]
+
 	}
 }
