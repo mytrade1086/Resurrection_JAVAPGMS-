@@ -1,6 +1,7 @@
 package Resurrection_JAVAPGMS.Resurrection_JAVAPGMS;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.testng.annotations.Test;
@@ -55,7 +56,34 @@ public class CommonCharsInTwoStrings {
 		System.out.println(ofirst);
 		System.out.println(osecond);
 		
-
+	}
+	
+	@Test
+	public void Three() {
+		
+		
+		HashMap<String,Integer> hm=new HashMap();
+		String s1 = "ABCDEF";
+		String s2 = "DEFXYZ";
+		
+		for(String s: s1.split("")) {
+			hm.put(s, hm.getOrDefault(s, 0)+1);
+		}
+			
+		for(String s: s2.split("")) {
+			if(hm.containsKey(s)) {				
+				System.out.println("Duplicate Key==>"+s);
+				
+//				Duplicate Key==>D
+//						Duplicate Key==>E
+//						Duplicate Key==>F
+			}
+		}
+		
+		
+		
+		
+		
 	}
 
 }

@@ -1,8 +1,11 @@
 package Resurrection_JAVAPGMS.Resurrection_JAVAPGMS;
 
 import java.util.Arrays;
+import java.util.TreeMap;
+import java.util.TreeSet;
 
 import org.apache.commons.io.input.TaggedInputStream;
+import org.testng.annotations.Test;
 
 public class ArrangeStringInDescendingOrder {
 
@@ -28,6 +31,26 @@ public class ArrangeStringInDescendingOrder {
 		}
 		
 		System.out.println(Arrays.toString(test));//[This, new, day, is, a]
+		
+		
+	}
+	
+	
+	
+	@Test
+	public void Method2() {
+		
+		String  testv="This is a new day";
+		String [] test="This is a new day".split(" ");
+		
+		
+		TreeMap<Integer,String> ts=new TreeMap<Integer,String>();
+		for(String s: test) {
+		ts.put(s.length(), s);
+		}
+			
+		ts.forEach((k,v)->System.out.println(k+" "+v));
+		
 		
 		
 	}

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DiviDeStringIntoNPart">
+      <class name="Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DistinctcharsInString">
         <methods>
-          <include name="Substring"/>
+          <include name="dummy"/>
         </methods>
-      </class> <!-- Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DiviDeStringIntoNPart -->
+      </class> <!-- Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DistinctcharsInString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

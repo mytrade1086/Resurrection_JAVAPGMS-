@@ -49,5 +49,23 @@ public void NParts() {
 	
 }
 	
+
+
+
+@Test
+public void prac() {
 	
+	
+	String str="aaabbbccc";
+    
+    
+	int iParts=3;
+	int iStringLen=str.length();
+	
+	String sTemp="";
+	int sPartSize=iStringLen/iParts;
+	for(int i=0;i<iStringLen;i=i+sPartSize)
+	System.out.print(str.substring(i,i+sPartSize));//0 3    3 6 6 6
+	sPartSize=sPartSize+sPartSize;
+}
 }
