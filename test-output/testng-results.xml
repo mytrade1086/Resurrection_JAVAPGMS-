@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="180" started-at="2021-12-26T21:39:34 IST" finished-at="2021-12-26T21:39:35 IST">
+  <suite name="Default suite" duration-ms="104" started-at="2021-12-31T22:04:50 IST" finished-at="2021-12-31T22:04:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="180" started-at="2021-12-26T21:39:34 IST" finished-at="2021-12-26T21:39:35 IST">
-      <class name="Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.ExtractNumbersFromString">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.ExtractNumbersFromString@5d76b067]" name="Demo" duration-ms="24" started-at="2021-12-26T21:39:35 IST" finished-at="2021-12-26T21:39:35 IST">
+    <test name="Default test" duration-ms="104" started-at="2021-12-31T22:04:50 IST" finished-at="2021-12-31T22:04:50 IST">
+      <class name="patterns.RightTriangle">
+        <test-method status="PASS" signature="LeftTriangle()[pri:0, instance:patterns.RightTriangle@5d76b067]" name="LeftTriangle" duration-ms="18" started-at="2021-12-31T22:04:50 IST" finished-at="2021-12-31T22:04:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo -->
-      </class> <!-- Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.ExtractNumbersFromString -->
+        </test-method> <!-- LeftTriangle -->
+      </class> <!-- patterns.RightTriangle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

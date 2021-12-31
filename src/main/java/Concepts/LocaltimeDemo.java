@@ -45,7 +45,7 @@ public class LocaltimeDemo {
 		System.out.println(LocalTime.now().compareTo(max));
 		
 		
-		System.out.println(max.);
+		//System.out.println(max.);
 		
 		
 		while(LocalTime.now().compareTo(max)!=1) {

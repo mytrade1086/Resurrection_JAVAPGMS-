@@ -1,5 +1,7 @@
 package Searches;
 
+import org.testng.annotations.Test;
+
 public class Binarysearch {
 
 	
@@ -44,4 +46,29 @@ public class Binarysearch {
 		
 		if(!bFound) System.out.println("NOT FOUND");
 	}
+	
+	
+	
+	
+//	@Test
+//	public void prac() {
+//		
+//		
+//		ret("sumit");
+//		
+//	}
+//	
+//	
+//	public static void ret(String s) {
+//		
+//		if(s.length()>0) {
+//			System.out.print(s.substring(s.length()-1));
+//			ret(s.substring(0,s.length()-1));
+//		}
+//		
+//	}
+	
+	
+	
+	
 }

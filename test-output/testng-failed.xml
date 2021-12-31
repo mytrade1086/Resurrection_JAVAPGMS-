@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DistinctcharsInString">
+      <class name="Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.ExtractNumbersFromString">
         <methods>
-          <include name="dummy"/>
+          <include name="regex"/>
         </methods>
-      </class> <!-- Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.DistinctcharsInString -->
+      </class> <!-- Resurrection_JAVAPGMS.Resurrection_JAVAPGMS.ExtractNumbersFromString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

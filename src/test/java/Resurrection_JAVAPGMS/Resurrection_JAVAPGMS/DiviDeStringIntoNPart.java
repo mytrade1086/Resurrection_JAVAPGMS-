@@ -40,10 +40,6 @@ public void NParts() {
 	int sPartSize=iStringLen/iParts;
 	
 	
-	for(int i=0;i<iStringLen;i=i+sPartSize) {
-		sTemp=sTemp+str.substring(i,i+sPartSize)+" ";
-	}
-	
 	
 	System.out.println(sTemp);
 	
@@ -64,8 +60,14 @@ public void prac() {
 	
 	String sTemp="";
 	int sPartSize=iStringLen/iParts;
-	for(int i=0;i<iStringLen;i=i+sPartSize)
-	System.out.print(str.substring(i,i+sPartSize));//0 3    3 6 6 6
-	sPartSize=sPartSize+sPartSize;
+	
+	
+	for(int i=0;i<iStringLen;i=i+iParts) {
+		
+		
+		System.out.println(str.substring(i,i+iParts));
+		//o 3
+		//3 6
+	}
 }
 }
